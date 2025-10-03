@@ -1,0 +1,29 @@
+
+.sobreMi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 80px 20px;
+    background-color: transparent;
+}
+
+.sobreMi div {
+    max-width: 800px;
+    text-align: center;
+}
+
+.sobreMi h2 {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sobreMi p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #b0b0b0;
+    text-align: justify;
+    margin-bottom: 20px;
+}

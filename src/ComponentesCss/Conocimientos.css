@@ -1,0 +1,136 @@
+/* Sección principal */
+.conocimientos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 80px 20px;
+    background-color: transparent;
+}
+
+/* Container principal */
+.conocimientos-container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header de la sección */
+.conocimientos-header {
+    margin-bottom: 60px;
+}
+
+.conocimientos h2 {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: #b0b0b0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* Grid de tecnologías */
+.tecnologias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Categoría de tecnología */
+.categoria-tech {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px 25px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.categoria-tech:hover {
+    transform: translateY(-5px);
+    border-color: rgba(151, 151, 151, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.categoria-tech h3 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Tags de tecnologías */
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tech-tag {
+    background: linear-gradient(135deg, #979797, #b0b0b0);
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tech-tag:hover {
+    background: linear-gradient(135deg, #b0b0b0, #c0c0c0);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(151, 151, 151, 0.3);
+    color: #000000;
+}
+
+.tech-tag:visited {
+    color: #000000;
+}
+
+.tech-tag:active {
+    transform: translateY(0px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .conocimientos {
+        padding: 60px 15px;
+    }
+    
+    .conocimientos h2 {
+        font-size: 36px;
+    }
+    
+    .subtitulo {
+        font-size: 18px;
+    }
+    
+    .tecnologias-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .categoria-tech {
+        padding: 25px 20px;
+    }
+    
+    .categoria-tech h3 {
+        font-size: 20px;
+    }
+    
+    .tech-tag {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+}
