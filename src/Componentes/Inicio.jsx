@@ -21,7 +21,7 @@ export const Inicio = () => {
         
         {/* Lado izquierdo - Imagen */}
         <div className='inicio-imagen'>
-          <img src="./src/Imagenes/imagenPortada.jpg" alt="Mauro Pardo" className='imagenPortada' />
+          <img src="/imagenPortada.jpg" alt="Mauro Pardo" className='imagenPortada' />
           
           {/* Iconos de redes sociales y CV */}
           <div className='social-icons'>
