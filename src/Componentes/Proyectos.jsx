@@ -17,9 +17,32 @@ export const Proyectos = () => {
 
                     <div className='proyecto-card'>
                         <div className='proyecto-contenido'>
+                            <h3>Sistema para SocksCBA</h3>
+                            <p>Desarrollé una solución personalizada para la administración de ventas y stock de una tienda real. 
+                                Se solucionaron problemas como digitalización del inventario y automatización del registro de ventas, arquitectura escalable preparada para la 
+                                incorporación de nuevos módulos. Reforcé mis capacidades en el diseño de arquitecturas escalables, 
+                                enfocándome en crear una experiencia de usuario intuitiva para el sector administrativo.</p>
+
+                            <div className='tecnologias-usadas'>
+                                <span className='tech-tag'>React</span>
+                                <span className='tech-tag'>Node.js</span>
+                                <span className='tech-tag'>Express</span>
+                                <span className='tech-tag'>MySQL</span>
+                            </div>
+
+                            <div className='proyecto-enlaces'>
+                                <a href="https://youtu.be/Cz4LlR48zNk" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
+                                <a href="https://github.com/Pardomauro/SocksCBA.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className='proyecto-card'>
+                        <div className='proyecto-contenido'>
                             <h3>Sistema de Turnos de Pádel — Full Stack</h3>
                             <p>Desarrollé un sistema con React en el frontend y Node.js + Express en el backend.
-                                Gestiona administradores, usuarios, reservas de canchas y horarios disponibles. 
+                                Gestiona administradores, usuarios, reservas de canchas y horarios disponibles.
                                 Incluye validación de datos, manejo de estados, consumo de APIs y una estructura escalable que facilita la incorporación de nuevas funcionalidades.</p>
 
                             <div className='tecnologias-usadas'>
@@ -27,7 +50,7 @@ export const Proyectos = () => {
                                 <span className='tech-tag'>Node.js</span>
                                 <span className='tech-tag'>Express</span>
                                 <span className='tech-tag'>MySQL</span>
-                                
+
                             </div>
 
                             <div className='proyecto-enlaces'>
@@ -100,7 +123,7 @@ export const Proyectos = () => {
                         </div>
                     </div>
 
-                    
+
 
                 </div>
             </div>
