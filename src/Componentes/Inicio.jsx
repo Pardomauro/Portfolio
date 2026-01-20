@@ -50,8 +50,8 @@ export const Inicio = () => {
               </a>
 
               <a
-                href="/CV-MauroPardo-Actualizado.pdf"
-                download="CV-MauroPardo-Actualizado.pdf"
+                href="/CV-MauroPardo-2026.pdf"
+                download="CV-MauroPardo-2026.pdf"
                 className='social-icon cv-download'
                 title="Descargar CV"
               >
