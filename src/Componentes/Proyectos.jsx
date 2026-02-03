@@ -28,11 +28,33 @@ export const Proyectos = () => {
                                 <span className='tech-tag'>Node.js</span>
                                 <span className='tech-tag'>Express</span>
                                 <span className='tech-tag'>MySQL</span>
+                                <span className='tech-tag'>Railway</span>
                             </div>
 
                             <div className='proyecto-enlaces'>
                                 <a href="https://youtu.be/Cz4LlR48zNk" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
                                 <a href="https://github.com/Pardomauro/SocksCBA.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='proyecto-card'>
+                        <div className='proyecto-contenido'>
+                            <h3>Dolar App - Frontend</h3>
+                            <p>Aplicación web desarrollada en React y Tailwind CSS que permite consultar cotizaciones actualizadas y 
+                                convertir monedas en tiempo real mediante integración con la API de DolarAPI. 
+                                Interfaz moderna, responsive y enfocada en una experiencia de usuario clara y rápida.</p>
+
+                            <div className='tecnologias-usadas'>
+                                <span className='tech-tag'>React</span>
+                                <span className='tech-tag'>Tailwind CSS</span>
+                                <span className='tech-tag'>Vercel</span>
+                                
+                            </div>
+
+                            <div className='proyecto-enlaces'>
+                                <a href="https://dolar-app-chi.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
+                                <a href="https://github.com/Pardomauro/Dolar-App.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +105,7 @@ export const Proyectos = () => {
 
                     <div className='proyecto-card'>
                         <div className='proyecto-contenido'>
-                            <h3>Sistema de Gestión de Reclamos Ciudadanos</h3>
+                            <h3>Sistema de Gestión de Reclamos Ciudadanos - Backend</h3>
                             <p>Implementé una API REST completa en Node.js con Express para permitir a los ciudadanos realizar
                                 reclamos o informes relacionados con servicios públicos. Implementación de CRUD, validaciones,
                                 manejo de errores y conexión a base de datos.</p>
@@ -104,7 +126,7 @@ export const Proyectos = () => {
 
                     <div className='proyecto-card'>
                         <div className='proyecto-contenido'>
-                            <h3>Sistema de Gestión de Turnos Médicos</h3>
+                            <h3>Sistema de Gestión de Turnos Médicos - Backend</h3>
                             <p>Desarrollé una API REST completa en Node.js con Express para un centro médico, gestionando
                                 pacientes, profesionales de salud y turnos asignados con carga y manejo de imágenes.
                                 Operaciones CRUD y estructura modular siguiendo buenas prácticas.</p>
