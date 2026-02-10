@@ -140,7 +140,7 @@ export const Contacto = () => {
                 {/* Footer */}
                 <div className='footer'>
                     <div className='footer-content'>
-                        <p>© 2025 Mauro Pardo - Desarrollador Full Stack</p>
+                        <p>© 2026 Mauro Pardo - Desarrollador Full Stack</p>
                         <p>Hecho con React ⚛️</p>
                     </div>
                 </div>
