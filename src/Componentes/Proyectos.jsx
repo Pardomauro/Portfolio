@@ -17,10 +17,36 @@ export const Proyectos = () => {
 
                     <div className='proyecto-card'>
                         <div className='proyecto-contenido'>
+                            <h3>ClipBook - Sistema para Barberías</h3>
+                            <p>Desarrollé una plataforma integral para la gestión de turnos y administración de barberías.
+                                Resolví problemáticas críticas como la superposición de citas y la falta de métricas de negocio, integrando un dashboard administrativo
+                                con visualización de datos y automatización de notificaciones por email mediante Resend. Reforcé mis capacidades en el diseño de arquitecturas
+                                desacopladas y escalables, priorizando una interfaz moderna con Shadcn UI y React 19 que optimiza la experiencia de usuario
+                                tanto para el cliente como para el profesional.</p>
+
+                            <div className='tecnologias-usadas'>
+                                <span className='tech-tag'>React</span>
+                                <span className='tech-tag'>Node.js</span>
+                                <span className='tech-tag'>Express</span>
+                                <span className='tech-tag'>Tailwind CSS</span>
+                                <span className='tech-tag'>MySQL</span>
+                                <span className='tech-tag'>Resend</span>
+                                <span className='tech-tag'>Shadcn UI</span>
+                            </div>
+
+                            <div className='proyecto-enlaces'>
+                                <a href="https://youtu.be/lGZ9qGRvtaQ?si=OP1M4m4OV320gB-h" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
+                                <a href="https://github.com/Pardomauro/ClipBook.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='proyecto-card'>
+                        <div className='proyecto-contenido'>
                             <h3>Sistema para SocksCBA</h3>
-                            <p>Desarrollé una solución personalizada para la administración de ventas y stock de una tienda real. 
-                                Se solucionaron problemas como digitalización del inventario y automatización del registro de ventas, arquitectura escalable preparada para la 
-                                incorporación de nuevos módulos. Reforcé mis capacidades en el diseño de arquitecturas escalables, 
+                            <p>Desarrollé una solución personalizada para la administración de ventas y stock de una tienda real.
+                                Se solucionaron problemas como digitalización del inventario y automatización del registro de ventas, arquitectura escalable preparada para la
+                                incorporación de nuevos módulos. Reforcé mis capacidades en el diseño de arquitecturas escalables,
                                 enfocándome en crear una experiencia de usuario intuitiva para el sector administrativo.</p>
 
                             <div className='tecnologias-usadas'>
@@ -41,15 +67,15 @@ export const Proyectos = () => {
                     <div className='proyecto-card'>
                         <div className='proyecto-contenido'>
                             <h3>Dolar App - Frontend</h3>
-                            <p>Aplicación web desarrollada en React y Tailwind CSS que permite consultar cotizaciones actualizadas y 
-                                convertir monedas en tiempo real mediante integración con la API de DolarAPI. 
+                            <p>Aplicación web desarrollada en React y Tailwind CSS que permite consultar cotizaciones actualizadas y
+                                convertir monedas en tiempo real mediante integración con la API de DolarAPI.
                                 Interfaz moderna, responsive y enfocada en una experiencia de usuario clara y rápida.</p>
 
                             <div className='tecnologias-usadas'>
                                 <span className='tech-tag'>React</span>
                                 <span className='tech-tag'>Tailwind CSS</span>
                                 <span className='tech-tag'>Vercel</span>
-                                
+
                             </div>
 
                             <div className='proyecto-enlaces'>
@@ -120,27 +146,6 @@ export const Proyectos = () => {
                             <div className='proyecto-enlaces'>
                                 <a href="https://youtu.be/pgliqO2S4GE" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
                                 <a href="https://github.com/Pardomauro/Reclamos-Ciudadanos.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='proyecto-card'>
-                        <div className='proyecto-contenido'>
-                            <h3>Sistema de Gestión de Turnos Médicos - Backend</h3>
-                            <p>Desarrollé una API REST completa en Node.js con Express para un centro médico, gestionando
-                                pacientes, profesionales de salud y turnos asignados con carga y manejo de imágenes.
-                                Operaciones CRUD y estructura modular siguiendo buenas prácticas.</p>
-
-                            <div className='tecnologias-usadas'>
-                                <span className='tech-tag'>Node.js</span>
-                                <span className='tech-tag'>Express</span>
-                                <span className='tech-tag'>MySQL</span>
-                                <span className='tech-tag'>Multer</span>
-                            </div>
-
-                            <div className='proyecto-enlaces'>
-                                <a href="https://youtu.be/4RC5MMKU1fY" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
-                                <a href="https://github.com/Pardomauro/Sistema-de-Gestion-de-Turnos-Medicos.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
                             </div>
                         </div>
                     </div>
