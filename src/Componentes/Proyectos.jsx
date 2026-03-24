@@ -35,7 +35,7 @@ export const Proyectos = () => {
                             </div>
 
                             <div className='proyecto-enlaces'>
-                                <a href="https://youtu.be/lGZ9qGRvtaQ?si=OP1M4m4OV320gB-h" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
+                                <a href="https://youtu.be/ls3b3A7SJPs" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
                                 <a href="https://github.com/Pardomauro/ClipBook.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
                             </div>
                         </div>
