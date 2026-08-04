@@ -7,15 +7,17 @@ export const SobreMi = () => {
         <section className='sobreMi' id='sobremi'>
             <div>
                 <h2>Sobre Mí</h2>
-                <p> Soy desarrollador en formación, próximo a finalizar la Tecnicatura en Desarrollo de Aplicaciones Informáticas.
-
-                    Actualmente estoy trabajando en proyectos personales que me permiten aplicar lo aprendido, explorar nuevas
-                    herramientas y seguir evolucionando como profesional. Me encuentro en la búsqueda de mi primera oportunidad
-                    laboral en IT, con el objetivo de integrarme a un equipo de trabajo donde pueda aportar valor, continuar
-                    aprendiendo y crecer en un entorno técnico desafiante.</p>
+                <p> ¡Hola! Soy Mauro 👋
+                    Técnico en Desarrollo de Aplicaciones Informáticas graduado en el Instituto Universitario Aeronáutico (IUA).
+                    Me especializo en el desarrollo de aplicaciones web Full Stack, construyendo soluciones sólidas, escalables y orientadas 
+                    a la experiencia de usuario. Mi stack principal se centra en JavaScript (React, Node.js, Express), Java y bases de datos 
+                    relacionales como MySQL.
+                    A lo largo de mi formación y proyectos, he diseñado arquitecturas cliente-servidor, implementado APIs RESTful, gestión de sesiones
+                    seguras y lógica de negocio compleja para optimizar procesos reales.
+                    Me apasiona la ingeniería de software, la resolución de problemas mediante código limpio y el aprendizaje continuo !</p>
             </div>
         </section>
     )
 }
 
-export default SobreMi
+export default SobreMi 

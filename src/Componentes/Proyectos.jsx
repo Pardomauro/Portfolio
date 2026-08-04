@@ -35,7 +35,7 @@ export const Proyectos = () => {
                             </div>
 
                             <div className='proyecto-enlaces'>
-                                <a href="https://youtu.be/ls3b3A7SJPs" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
+                                <a href="https://clipbook-frontend-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
                                 <a href="https://github.com/Pardomauro/ClipBook.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
                             </div>
                         </div>
@@ -64,31 +64,10 @@ export const Proyectos = () => {
                         </div>
                     </div>
 
-                    <div className='proyecto-card'>
-                        <div className='proyecto-contenido'>
-                            <h3>Dolar App - Frontend</h3>
-                            <p>Aplicación web desarrollada en React y Tailwind CSS que permite consultar cotizaciones actualizadas y
-                                convertir monedas en tiempo real mediante integración con la API de DolarAPI.
-                                Interfaz moderna, responsive y enfocada en una experiencia de usuario clara y rápida.</p>
-
-                            <div className='tecnologias-usadas'>
-                                <span className='tech-tag'>React</span>
-                                <span className='tech-tag'>Tailwind CSS</span>
-                                <span className='tech-tag'>Vercel</span>
-
-                            </div>
-
-                            <div className='proyecto-enlaces'>
-                                <a href="https://dolar-app-chi.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
-                                <a href="https://github.com/Pardomauro/Dolar-App.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-
 
                     <div className='proyecto-card'>
                         <div className='proyecto-contenido'>
-                            <h3>Sistema de Turnos de Pádel — Full Stack</h3>
+                            <h3>CanchaLibre — Full Stack</h3>
                             <p>Desarrollé un sistema con React en el frontend y Node.js + Express en el backend.
                                 Gestiona administradores, usuarios, reservas de canchas y horarios disponibles.
                                 Incluye validación de datos, manejo de estados, consumo de APIs y una estructura escalable que facilita la incorporación de nuevas funcionalidades.</p>
@@ -102,8 +81,8 @@ export const Proyectos = () => {
                             </div>
 
                             <div className='proyecto-enlaces'>
-                                <a href="https://youtu.be/yas3anr00fw" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
-                                <a href="https://github.com/Pardomauro/Sistema_TurnosPadel.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
+                                <a href="https://youtu.be/Liux8UFXvJE" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-demo'>Ver Proyecto</a>
+                                <a href="https://github.com/Pardomauro/CanchaLibre.git" target="_blank" rel="noopener noreferrer" className='btn-proyecto btn-github'>GitHub</a>
                             </div>
                         </div>
                     </div>
